@@ -1,0 +1,67 @@
+State,Model_File,Input_Months
+Perak,C:\Users\User\Documents\flood_dashboard\rf_models\perak_rf_6m.sav,6
+Perak,C:\Users\User\Documents\flood_dashboard\rf_models\perak_rf_7m.sav,7
+Perak,C:\Users\User\Documents\flood_dashboard\rf_models\perak_rf_8m.sav,8
+Perak,C:\Users\User\Documents\flood_dashboard\rf_models\perak_rf_9m.sav,9
+Perak,C:\Users\User\Documents\flood_dashboard\rf_models\perak_rf_10m.sav,10
+Perak,C:\Users\User\Documents\flood_dashboard\rf_models\perak_rf_11m.sav,11
+Perlis,C:\Users\User\Documents\flood_dashboard\rf_models\perlis_rf_6m.sav,6
+Perlis,C:\Users\User\Documents\flood_dashboard\rf_models\perlis_rf_7m.sav,7
+Perlis,C:\Users\User\Documents\flood_dashboard\rf_models\perlis_rf_8m.sav,8
+Perlis,C:\Users\User\Documents\flood_dashboard\rf_models\perlis_rf_9m.sav,9
+Perlis,C:\Users\User\Documents\flood_dashboard\rf_models\perlis_rf_10m.sav,10
+Perlis,C:\Users\User\Documents\flood_dashboard\rf_models\perlis_rf_11m.sav,11
+Kedah,C:\Users\User\Documents\flood_dashboard\rf_models\kedah_rf_6m.sav,6
+Kedah,C:\Users\User\Documents\flood_dashboard\rf_models\kedah_rf_7m.sav,7
+Kedah,C:\Users\User\Documents\flood_dashboard\rf_models\kedah_rf_8m.sav,8
+Kedah,C:\Users\User\Documents\flood_dashboard\rf_models\kedah_rf_9m.sav,9
+Kedah,C:\Users\User\Documents\flood_dashboard\rf_models\kedah_rf_10m.sav,10
+Kedah,C:\Users\User\Documents\flood_dashboard\rf_models\kedah_rf_11m.sav,11
+Pahang,C:\Users\User\Documents\flood_dashboard\rf_models\pahang_rf_6m.sav,6
+Pahang,C:\Users\User\Documents\flood_dashboard\rf_models\pahang_rf_7m.sav,7
+Pahang,C:\Users\User\Documents\flood_dashboard\rf_models\pahang_rf_8m.sav,8
+Pahang,C:\Users\User\Documents\flood_dashboard\rf_models\pahang_rf_9m.sav,9
+Pahang,C:\Users\User\Documents\flood_dashboard\rf_models\pahang_rf_10m.sav,10
+Pahang,C:\Users\User\Documents\flood_dashboard\rf_models\pahang_rf_11m.sav,11
+Sarawak,C:\Users\User\Documents\flood_dashboard\rf_models\sarawak_rf_6m.sav,6
+Sarawak,C:\Users\User\Documents\flood_dashboard\rf_models\sarawak_rf_7m.sav,7
+Sarawak,C:\Users\User\Documents\flood_dashboard\rf_models\sarawak_rf_8m.sav,8
+Sarawak,C:\Users\User\Documents\flood_dashboard\rf_models\sarawak_rf_9m.sav,9
+Sarawak,C:\Users\User\Documents\flood_dashboard\rf_models\sarawak_rf_10m.sav,10
+Sarawak,C:\Users\User\Documents\flood_dashboard\rf_models\sarawak_rf_11m.sav,11
+Negeri Sembilan,C:\Users\User\Documents\flood_dashboard\rf_models\negeri_sembilan_rf_6m.sav,6
+Negeri Sembilan,C:\Users\User\Documents\flood_dashboard\rf_models\negeri_sembilan_rf_7m.sav,7
+Negeri Sembilan,C:\Users\User\Documents\flood_dashboard\rf_models\negeri_sembilan_rf_8m.sav,8
+Negeri Sembilan,C:\Users\User\Documents\flood_dashboard\rf_models\negeri_sembilan_rf_9m.sav,9
+Negeri Sembilan,C:\Users\User\Documents\flood_dashboard\rf_models\negeri_sembilan_rf_10m.sav,10
+Negeri Sembilan,C:\Users\User\Documents\flood_dashboard\rf_models\negeri_sembilan_rf_11m.sav,11
+Melaka,C:\Users\User\Documents\flood_dashboard\rf_models\melaka_rf_6m.sav,6
+Melaka,C:\Users\User\Documents\flood_dashboard\rf_models\melaka_rf_7m.sav,7
+Melaka,C:\Users\User\Documents\flood_dashboard\rf_models\melaka_rf_8m.sav,8
+Melaka,C:\Users\User\Documents\flood_dashboard\rf_models\melaka_rf_9m.sav,9
+Melaka,C:\Users\User\Documents\flood_dashboard\rf_models\melaka_rf_10m.sav,10
+Melaka,C:\Users\User\Documents\flood_dashboard\rf_models\melaka_rf_11m.sav,11
+Johor,C:\Users\User\Documents\flood_dashboard\rf_models\johor_rf_6m.sav,6
+Johor,C:\Users\User\Documents\flood_dashboard\rf_models\johor_rf_7m.sav,7
+Johor,C:\Users\User\Documents\flood_dashboard\rf_models\johor_rf_8m.sav,8
+Johor,C:\Users\User\Documents\flood_dashboard\rf_models\johor_rf_9m.sav,9
+Johor,C:\Users\User\Documents\flood_dashboard\rf_models\johor_rf_10m.sav,10
+Johor,C:\Users\User\Documents\flood_dashboard\rf_models\johor_rf_11m.sav,11
+Terengganu,C:\Users\User\Documents\flood_dashboard\rf_models\terengganu_rf_6m.sav,6
+Terengganu,C:\Users\User\Documents\flood_dashboard\rf_models\terengganu_rf_7m.sav,7
+Terengganu,C:\Users\User\Documents\flood_dashboard\rf_models\terengganu_rf_8m.sav,8
+Terengganu,C:\Users\User\Documents\flood_dashboard\rf_models\terengganu_rf_9m.sav,9
+Terengganu,C:\Users\User\Documents\flood_dashboard\rf_models\terengganu_rf_10m.sav,10
+Terengganu,C:\Users\User\Documents\flood_dashboard\rf_models\terengganu_rf_11m.sav,11
+Kelantan,C:\Users\User\Documents\flood_dashboard\rf_models\kelantan_rf_6m.sav,6
+Kelantan,C:\Users\User\Documents\flood_dashboard\rf_models\kelantan_rf_7m.sav,7
+Kelantan,C:\Users\User\Documents\flood_dashboard\rf_models\kelantan_rf_8m.sav,8
+Kelantan,C:\Users\User\Documents\flood_dashboard\rf_models\kelantan_rf_9m.sav,9
+Kelantan,C:\Users\User\Documents\flood_dashboard\rf_models\kelantan_rf_10m.sav,10
+Kelantan,C:\Users\User\Documents\flood_dashboard\rf_models\kelantan_rf_11m.sav,11
+Sabah,C:\Users\User\Documents\flood_dashboard\rf_models\sabah_rf_6m.sav,6
+Sabah,C:\Users\User\Documents\flood_dashboard\rf_models\sabah_rf_7m.sav,7
+Sabah,C:\Users\User\Documents\flood_dashboard\rf_models\sabah_rf_8m.sav,8
+Sabah,C:\Users\User\Documents\flood_dashboard\rf_models\sabah_rf_9m.sav,9
+Sabah,C:\Users\User\Documents\flood_dashboard\rf_models\sabah_rf_10m.sav,10
+Sabah,C:\Users\User\Documents\flood_dashboard\rf_models\sabah_rf_11m.sav,11

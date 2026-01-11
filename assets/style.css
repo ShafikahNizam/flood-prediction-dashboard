@@ -1,0 +1,302 @@
+/* =========================================================
+   🌍 GLOBAL APP BACKGROUND
+========================================================= */
+.stApp {
+    background: #f4f7fb;
+}
+
+/* =========================================================
+   📦 MAIN CONTAINER
+========================================================= */
+.block-container {
+    padding: 2.4rem;
+}
+
+/* =========================================================
+   🔷 GLOBAL HEADER (ALL PAGES)
+========================================================= */
+.app-header {
+    background: linear-gradient(90deg, #0b5ed7, #1da1f2);
+    padding: 22px 34px;
+    border-radius: 18px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    box-shadow: 0 10px 26px rgba(0,0,0,0.18);
+}
+
+/* =========================================================
+   📦 BASE CARD (GLOBAL)
+========================================================= */
+.card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 26px;
+    margin-bottom: 26px;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+    color: #0b132b;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* =========================================================
+   📊 METRIC CARDS (GLOBAL)
+========================================================= */
+.metric-card {
+    background: linear-gradient(135deg, #0f1c3f, #1f3c88);
+    color: #ffffff;
+    border-radius: 18px;
+    padding: 22px;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.22);
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.metric-card small {
+    font-size: 13px;
+    opacity: 0.85;
+    margin-bottom: 4px;
+}
+
+.metric-card h2 {
+    margin: 0;
+    font-size: 34px;
+    font-weight: 800;
+}
+
+/* =========================================================
+   🚨 FLOOD / NO FLOOD CARDS (HOME / DASHBOARD)
+========================================================= */
+.flood-card,
+.safe-card {
+    border-radius: 20px;
+    padding: 28px;
+    text-align: center;
+    box-shadow: 0 10px 26px rgba(0,0,0,0.25);
+    margin: 12px;
+}
+
+.flood-card {
+    background: linear-gradient(135deg, #d62828, #ef476f);
+    color: #ffffff;
+}
+
+.safe-card {
+    background: linear-gradient(135deg, #0077b6, #4cc9f0);
+    color: #ffffff;
+}
+
+/* =========================================================
+   📘 INTERPRETATION CARD (OVERVIEW / STATE)
+========================================================= */
+.interpretation-card {
+    background: #ffffff;
+    border-left: 6px solid #1d9bf0;
+    border-radius: 16px;
+    padding: 22px 24px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.interpretation-card h4 {
+    font-weight: 800;
+    color: #0b5ed7;
+    margin-bottom: 8px;
+}
+
+.interpretation-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #334155;
+}
+
+/* =========================================================
+   📊 CHART CONTAINER
+========================================================= */
+.js-plotly-plot {
+    background: #ffffff !important;
+    border-radius: 16px;
+    padding: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* =========================================================
+   📋 TABLE TITLE
+========================================================= */
+.table-title {
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-weight: 800;
+    color: #0b5ed7;
+    text-align: center;
+}
+
+/* =========================================================
+   📋 DATA TABLE (COLORED)
+========================================================= */
+[data-testid="stDataFrame"] {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+[data-testid="stDataFrame"] thead tr th {
+    background: linear-gradient(90deg, #0b5ed7, #1da1f2);
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+}
+
+[data-testid="stDataFrame"] tbody tr td {
+    text-align: center;
+    font-size: 14px;
+}
+
+[data-testid="stDataFrame"] tbody tr:nth-child(even) {
+    background-color: #f1f7ff;
+}
+
+[data-testid="stDataFrame"] tbody tr:hover {
+    background-color: #e0efff !important;
+}
+
+/* =========================================================
+   🧭 SIDEBAR
+========================================================= */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0b5ed7, #1da1f2);
+}
+
+section[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+}
+
+/* =========================================================
+   🔘 BUTTONS
+========================================================= */
+.stButton > button {
+    background: #0b5ed7;
+    color: #ffffff;
+    border-radius: 12px;
+    font-weight: 700;
+    border: none;
+    padding: 8px 18px;
+}
+
+.stButton > button:hover {
+    background: #094db1;
+}
+
+/* =========================================================
+   📌 FOOTER
+========================================================= */
+.app-footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 14px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+/* =========================================================
+   🎚️ SLIDER
+========================================================= */
+section[data-testid="stSlider"] div[role="slider"] {
+    background-color: #ffd166 !important;
+    border: 3px solid #ffd166 !important;
+}
+
+section[data-testid="stSlider"] span {
+    font-weight: 700;
+}
+
+/* =========================================================
+   🏷️ PAGE-SPECIFIC LABELS
+========================================================= */
+
+/* Home page */
+.page-home .card {
+    max-width: 100%;
+}
+
+/* Overview page */
+.page-overview .interpretation-card {
+    margin-top: 10px;
+}
+
+/* Prediction page */
+.page-prediction .metric-card {
+    background: linear-gradient(135deg, #023047, #219ebc);
+}
+
+/* =========================================================
+   🔐 ADMIN PAGE ONLY
+========================================================= */
+.page-admin {
+    padding-top: 10px;
+}
+
+/* ===============================
+   🔐 ADMIN LOGIN INPUT BOX
+================================ */
+
+/* Input container */
+div[data-testid="stTextInput"] {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 6px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    margin-bottom: 14px;
+}
+
+/* Actual input field */
+div[data-testid="stTextInput"] input {
+    background: #f8fafc !important;
+    border-radius: 10px !important;
+    border: 2px solid #e2e8f0 !important;
+    padding: 12px 14px !important;
+    font-size: 15px !important;
+}
+
+/* Focus effect */
+div[data-testid="stTextInput"] input:focus {
+    border-color: #0b5ed7 !important;
+    box-shadow: 0 0 0 3px rgba(11,94,215,0.2) !important;
+}
+
+/* ===============================
+   🔐 ADMIN LOGIN BUTTON
+================================ */
+
+div[data-testid="stFormSubmitButton"] button {
+    background: linear-gradient(90deg, #0b5ed7, #1da1f2) !important;
+    color: #ffffff !important;
+    border-radius: 14px !important;
+    padding: 12px !important;
+    font-weight: 800 !important;
+    font-size: 15px !important;
+    border: none !important;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+    transition: all 0.25s ease;
+}
+
+/* Hover */
+div[data-testid="stFormSubmitButton"] button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.22);
+}
+
+
+
+
+
