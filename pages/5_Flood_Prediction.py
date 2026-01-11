@@ -373,8 +373,12 @@ with tab_state:
         model_filename
     )
     
-    model = joblib.load(model_path)
-    st.success("✅ State RF model loaded")
+    if not os.path.exists(model_path):
+        st.error(f"❌ Model file not found: {model_filename}")
+        st.stop()
+
+model = joblib.load(model_path)
+st.success(f"✅ Model loaded: {model_filename}")
 
 
     monthly_input = []
