@@ -363,8 +363,19 @@ with tab_state:
         st.warning("⚠️ Model not available.")
         st.stop()
 
-    model = joblib.load(row["Model_File"].values[0])
+    import os
+    import joblib
+    
+    model_filename = row["Model_File"].values[0]
+    
+    model_path = os.path.join(
+        "rf_models",
+        model_filename
+    )
+    
+    model = joblib.load(model_path)
     st.success("✅ State RF model loaded")
+
 
     monthly_input = []
     cols = st.columns(n_input)
